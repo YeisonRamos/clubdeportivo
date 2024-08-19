@@ -1,0 +1,28 @@
+#ubicacion{
+    background: rgb(169, 172, 135);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#ubicacion h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#ubicacion .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 35px;
+}
+#ubicacion .contenedor iframe{
+    width: 45%;
+    border: 6px solid rgb(15, 15, 12);
+}
+#ubicacion .contenedor p{
+    padding: 40px;
+    width: 50%;
+    text-align: left;
+}

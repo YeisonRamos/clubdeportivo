@@ -1,0 +1,49 @@
+#info{
+    background-color: rgb(169, 172, 135);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: grid;
+}
+#info h2{
+    padding: 15px;
+    text-transform: uppercase;
+}
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-pelota{
+    margin: 20px;
+}
+.info-pelota img{
+    width: 180px;
+    height: 180px;
+    border-radius:40%;
+    border: 3px solid rgb(219, 216, 41);
+    
+}
+
+
+/*-----------responsive-----*/
+
+/*--movil--*/
+@media(min-width: 480px){
+    .info-pelota{
+        width: 40%;        
+    }
+}
+/*--tablet--*/
+@media(min-width: 768px){
+    .info-pelota{
+        width: 40%;        
+    }
+
+}
+/*--escritorio--*/
+@media(min-width: 1024px){
+    .info-pelota{
+        width: auto;        
+    }
+}
